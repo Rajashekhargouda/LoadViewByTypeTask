@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="camera_denied">Camera permission denied</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="no_items">No Items</string>
+    <string name="loading">Loading</string>
+</resources>
