@@ -8,7 +8,7 @@ import com.google.gson.reflect.TypeToken
 import com.locus.myapplication.R
 
 class ViewModel(application: Application) : AndroidViewModel(application) {
-    private val itemListData = MutableLiveData<ItemListResponse>()
+    val itemListData = MutableLiveData<ItemListResponse>()
     private val somethingWentWrong = application.applicationContext.getString(R.string.something_went_wrong)
     private val noItems= application.applicationContext.getString(R.string.no_items)
 
