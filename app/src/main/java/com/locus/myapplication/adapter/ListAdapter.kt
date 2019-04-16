@@ -54,11 +54,6 @@ class ListAdapter(var itemList:ArrayList<ListModel>,
                     photoTitle.text = item.title
                     photoImgview.setOnClickListener {
                         function.invoke(position,item,it)
-                        /*if (photoImgview.drawable!=null){
-                            photoImgview.requestLayout()
-                            photoImgview.layoutParams.height = 600
-                            photoImgview.layoutParams.width =  600
-                        }else  function.invoke(position,item,it)*/
                     }
 
                     imgRemove.setOnClickListener {
